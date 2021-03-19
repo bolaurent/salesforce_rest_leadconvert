@@ -51,8 +51,7 @@ The Response body contains a Database.LeadConvertResult, also documented in Apex
             "accountid":"0012z0000050rLlAAI",
             "contactid":"0032z000003ow8NAAQ",
             "leadid":"00Q2z0000010SlaEAE",
-            "opportunityid":
-            "0062z000001uX5cAAE",
+            "opportunityid":"0062z000001uX5cAAE",
             "success":true,
             "errors":[]
         },
