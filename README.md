@@ -1,7 +1,9 @@
 Provides a REST endpoint that exposes the Lead Conversion feature of Apex.
 
 ## URI ##
+```
 <baseurl>/services/apexrest/leadconvert/<leadid>
+```
   
 ## Format ##
 JSON
