@@ -43,4 +43,20 @@ Maximal request body content is json as follows. All name/value pairs (except co
 
 The Response body contains a Database.LeadConvertResult, also documented in Apex Developer Guide.
 
+```
+{
+    "message":"Success",
+    "lead_convert_result":
+        {
+            "accountid":"0012z0000050rLlAAI",
+            "contactid":"0032z000003ow8NAAQ",
+            "leadid":"00Q2z0000010SlaEAE",
+            "opportunityid":
+            "0062z000001uX5cAAE",
+            "success":true,
+            "errors":[]
+        },
+    "code":"success"
+}
+```
   
