@@ -1,15 +1,16 @@
 Provides a REST endpoint that exposes the Lead Conversion feature of Apex.
 
-URI
+## URI ##
 <baseurl>/services/apexrest/leadconvert/<leadid>'
   
-Format
+## Format ##
 JSON
 
-HTTP Method
+## HTTP Method ##
 POST
 
 
+## request body ##
 If request body is omitted, convertedStatus is set to 'Opportunity' and all other fields to null
 
 Maximal request body content is json as follows. All name/value pairs (except convertedStatus) are optional. The meanings of all these parameters are documented in Apex Developer Guide, see class Database.LeadConvert
@@ -35,6 +36,8 @@ Maximal request body content is json as follows. All name/value pairs (except co
 "sendNotificationEmail":false
 }
 ```
+
+## Response Body ##
 
 The Response body contains a Database.LeadConvertResult, also documented in Apex Developer Guide.
 
